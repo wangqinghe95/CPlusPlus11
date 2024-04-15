@@ -5,7 +5,7 @@ Understanding C++ 11, knowledge about C++ 11
 
 ## New Feature Of C++
 
-+ [C99 特性](./Chapter-2/C99.md)
++ [C++ 11 兼容 C99 特性](./Chapter-2/Compatible%20Feature%20by%20C++11.md)
 + _cpluscplus 宏
 + 对齐支持
 + 通用属性

@@ -12,14 +12,14 @@ C++11 兼容了 C99 的一些宏定义
 
 [C++11 和 C99 兼容的宏](./Code/macro_STDC.cpp)
 
-## 2.1.2 __func__ 预定义标识符
+### 2.1.2 __func__ 预定义标识符
 
 功能是返回所在函数的名字
 
 1. 允许该标识符出现在类或者结构体里
 2. 不允许作为函数参数的默认值
 
-## 2.1.3 _Pargma
+### 2.1.3 _Pargma
 
 `#pragma once`
 预处理指令，指示编译器该头文件只会编译一次。
@@ -45,7 +45,7 @@ CONCAT(..\concat.dir)
 在这里，CONCAT(..\concat.dir) 最终会编译产生 _Pragma(concat on "..\concat.dir") 效果
 而 `#pragma ` 是不能在宏中展开的
 
-## 2.1.4 变长参数的宏定义以及 __VA_ARGS__
+### 2.1.4 变长参数的宏定义以及 __VA_ARGS__
 
 C99 标准中，程序员可以使用变长参数列表的宏定义来实现函数的不定参数个数。
 变长参数的宏定义是指在宏定义中参数列表中的最后一个参数为省略号，而预定义宏 __VA_ARGS__ 则可以在宏定义的实现部分替换省略号所代表的字符串，比如
@@ -54,11 +54,23 @@ C99 标准中，程序员可以使用变长参数列表的宏定义来实现函�
 这样就定义了一个 printf 的别名 PR
 
 下面是一个简单的变长参数宏的应用
-![LOG](./Code/changed_parameters.cpp)
+```
+#include <stdio.h>
+
+#define LOG(...) {\
+    fprintf(stderr, "%s: Line %d:\t", __FILE__, __LINE__);  \
+    fprintf(stderr, __VA_ARGS__);   \
+    fprintf(stderr, "\n");  \
+}
+
+int main()
+{
+    int x = 3;
+    LOG("x = %d", x);
+
+}
+```
 
 
-## 宽窄字符串的连接
 
-在 C++11 标准之前，将窄字符串（char）转换成宽字符串（wchar_t）是未定义的行为
 
-在 C++11 标准中，支持的编译器会将窄字符串转换成宽字符串，并进行连接
