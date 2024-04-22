@@ -14,14 +14,14 @@ Understanding C++ 11, knowledge about C++ 11
 + 复制再抛出异常
 + 常量表达式
 + decltype 
-+ 函数的默认模板参数
++ [函数的默认模板参数](./Chapter-2/2-11-Default%20template%20parameter.md)
 + 显示默认和删除函数（默认的控制）
 + 委托构造函数
 + 并行动态初始化和析构
 + 显示转换操作符
 + 扩展的 friend 语法
 + [扩展的整型](./Chapter-2/2-3-Extended%20int.md)
-+ 外部模板
++ [外部模板](./Chapter-2/2-12-External%20template.md)
 + 一般化的 SFINAE 规则
 + 统一的初始化语法和语义
 + 非受限联合体
