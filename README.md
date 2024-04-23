@@ -28,7 +28,7 @@ Understanding C++ 11, knowledge about C++ 11
 + 用户定义的字面量
 + 变长模板
 + 类成员初始化
-+ 继承构造函数
++ [继承构造函数](./Chapter-3/3-1-Inherit%20constructor.md)
 + 初始化列表
 + lambda 函数
 + 局部类型用作模板参数
