@@ -16,7 +16,7 @@ Understanding C++ 11, knowledge about C++ 11
 + decltype 
 + [函数的默认模板参数](./Chapter-2/2-11-Default%20template%20parameter.md)
 + 显示默认和删除函数（默认的控制）
-+ 委托构造函数
++ [委托构造函数](./Chapter-3/3-2-delegating%20constructor.md)
 + 并行动态初始化和析构
 + 显示转换操作符
 + 扩展的 friend 语法
