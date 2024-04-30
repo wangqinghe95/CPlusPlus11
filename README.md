@@ -19,6 +19,8 @@ Understanding C++ 11, knowledge about C++ 11
 + [继承构造函数](./Chapter-3/3-1-Inherit%20constructor.md)
 + [委托构造函数](./Chapter-3/3-2-delegating%20constructor.md)
 + [右值引用，移动语义，完美转发](./Chapter-3/3-3-Rvalue%20reference.md)
++ [显示转换操作符](./Chapter-3/3-4-Explict%20Conversion%20opeartions.md)
+
 
 ### Others
 + 对齐支持
@@ -30,7 +32,6 @@ Understanding C++ 11, knowledge about C++ 11
 + decltype 
 + 显示默认和删除函数（默认的控制）
 + 并行动态初始化和析构
-+ 显示转换操作符
 + 一般化的 SFINAE 规则
 + 统一的初始化语法和语义
 + 非受限联合体
