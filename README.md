@@ -20,6 +20,7 @@ Understanding C++ 11, knowledge about C++ 11
 + [委托构造函数](./Chapter-3/3-2-delegating%20constructor.md)
 + [右值引用，移动语义，完美转发](./Chapter-3/3-3-Rvalue%20reference.md)
 + [显示转换操作符](./Chapter-3/3-4-Explict%20Conversion%20opeartions.md)
++ [初始化列表](./Chapter-3/3-5-Initializer%20list.md)
 
 
 ### Others
@@ -38,7 +39,6 @@ Understanding C++ 11, knowledge about C++ 11
 + 用户定义的字面量
 + 变长模板
 + 类成员初始化
-+ 初始化列表
 + lambda 函数
 + 局部类型用作模板参数
 + 内存模型
