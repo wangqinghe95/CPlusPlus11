@@ -21,6 +21,7 @@ Understanding C++ 11, knowledge about C++ 11
 + [右值引用，移动语义，完美转发](./Chapter-3/3-3-Rvalue%20reference.md)
 + [显示转换操作符](./Chapter-3/3-4-Explict%20Conversion%20opeartions.md)
 + [初始化列表](./Chapter-3/3-5-Initializer%20list.md)
++ [防止类型收窄](./Chapter-3/3-6-Preventing%20narrowing.md)
 
 
 ### Others
@@ -43,7 +44,6 @@ Understanding C++ 11, knowledge about C++ 11
 + 局部类型用作模板参数
 + 内存模型
 + 内联名字空间
-+ 防止类型收窄
 + 指针空值
 + POD（plain old data）
 + 基于范围的 for 语句
