@@ -22,6 +22,7 @@ Understanding C++ 11, knowledge about C++ 11
 + [显示转换操作符](./Chapter-3/3-4-Explict%20Conversion%20opeartions.md)
 + [初始化列表](./Chapter-3/3-5-Initializer%20list.md)
 + [防止类型收窄](./Chapter-3/3-6-Preventing%20narrowing.md)
++ [POD（plain old data）](./Chapter-3/3-7-POD%20Type.md)
 
 
 ### Others
@@ -45,7 +46,6 @@ Understanding C++ 11, knowledge about C++ 11
 + 内存模型
 + 内联名字空间
 + 指针空值
-+ POD（plain old data）
 + 基于范围的 for 语句
 + 原生字符串字面量
 + 追踪返回类型语法
