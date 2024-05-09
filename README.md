@@ -23,7 +23,7 @@ Understanding C++ 11, knowledge about C++ 11
 + [初始化列表](./Chapter-3/3-5-Initializer%20list.md)
 + [防止类型收窄](./Chapter-3/3-6-Preventing%20narrowing.md)
 + [POD（plain old data）](./Chapter-3/3-7-POD%20Type.md)
-
++ [非受限联合体](./Chapter-3/3-8-Unrestricted%20union.md)
 
 ### Others
 + 对齐支持
@@ -37,7 +37,7 @@ Understanding C++ 11, knowledge about C++ 11
 + 并行动态初始化和析构
 + 一般化的 SFINAE 规则
 + 统一的初始化语法和语义
-+ 非受限联合体
+
 + 用户定义的字面量
 + 变长模板
 + 类成员初始化
