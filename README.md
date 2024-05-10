@@ -25,7 +25,8 @@ Understanding C++ 11, knowledge about C++ 11
 + [POD（plain old data）](./Chapter-3/3-7-POD%20Type.md)
 + [非受限联合体](./Chapter-3/3-8-Unrestricted%20union.md)
 + [用户定义的字面量](./Chapter-3/3-9-user-defined%20literals.md)
-
++ [内联名字空间](./Chapter-3/3-10-Inline%20namespace.md)
++ 
 
 ### Others
 + 对齐支持
@@ -44,7 +45,6 @@ Understanding C++ 11, knowledge about C++ 11
 + lambda 函数
 + 局部类型用作模板参数
 + 内存模型
-+ 内联名字空间
 + 指针空值
 + 基于范围的 for 语句
 + 原生字符串字面量
