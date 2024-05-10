@@ -26,7 +26,9 @@ Understanding C++ 11, knowledge about C++ 11
 + [非受限联合体](./Chapter-3/3-8-Unrestricted%20union.md)
 + [用户定义的字面量](./Chapter-3/3-9-user-defined%20literals.md)
 + [内联名字空间](./Chapter-3/3-10-Inline%20namespace.md)
-+ 
++ [模板别名](./Chapter-3/3-11-template%20alias.md)
++ [一般化的 SFINAE 规则](./Chapter-3/3-12-Generalized%20SFINAE%20rules.md)
+
 
 ### Others
 + 对齐支持
@@ -38,7 +40,6 @@ Understanding C++ 11, knowledge about C++ 11
 + decltype 
 + 显示默认和删除函数（默认的控制）
 + 并行动态初始化和析构
-+ 一般化的 SFINAE 规则
 + 统一的初始化语法和语义
 + 变长模板
 + 类成员初始化
@@ -49,6 +50,5 @@ Understanding C++ 11, knowledge about C++ 11
 + 基于范围的 for 语句
 + 原生字符串字面量
 + 追踪返回类型语法
-+ 模板别名
 + 线程本地的存储
 + Unicode
