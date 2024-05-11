@@ -29,6 +29,8 @@ Understanding C++ 11, knowledge about C++ 11
 + [模板别名](./Chapter-3/3-11-template%20alias.md)
 + [一般化的 SFINAE 规则](./Chapter-3/3-12-Generalized%20SFINAE%20rules.md)
 
+### Chapter-4
++ [Auto 类型推导](./Chapter-4/4-2-Auto.md)
 
 ### Others
 + 对齐支持
