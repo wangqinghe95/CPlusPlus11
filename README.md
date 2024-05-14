@@ -31,6 +31,8 @@ Understanding C++ 11, knowledge about C++ 11
 
 ### Chapter-4
 + [Auto 类型推导](./Chapter-4/4-2-Auto.md)
++ [decltype](./Chapter-4/4-3-Decltype.md) 
+
 
 ### Others
 + 对齐支持
@@ -39,7 +41,6 @@ Understanding C++ 11, knowledge about C++ 11
 + 强类型枚举
 + 复制再抛出异常
 + 常量表达式
-+ decltype 
 + 显示默认和删除函数（默认的控制）
 + 并行动态初始化和析构
 + 统一的初始化语法和语义
