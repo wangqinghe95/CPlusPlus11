@@ -32,7 +32,7 @@ Understanding C++ 11, knowledge about C++ 11
 ### Chapter-4
 + [Auto 类型推导](./Chapter-4/4-2-Auto.md)
 + [decltype](./Chapter-4/4-3-Decltype.md) 
-
++ [追踪返回类型](./Chapter-4/4-4-Trailing%20return%20type.md)
 
 ### Others
 + 对齐支持
@@ -52,6 +52,5 @@ Understanding C++ 11, knowledge about C++ 11
 + 指针空值
 + 基于范围的 for 语句
 + 原生字符串字面量
-+ 追踪返回类型语法
 + 线程本地的存储
 + Unicode
