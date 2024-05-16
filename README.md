@@ -35,6 +35,9 @@ Understanding C++ 11, knowledge about C++ 11
 + [追踪返回类型](./Chapter-4/4-4-Trailing%20return%20type.md)
 + [基于范围的 for 语句](./Chapter-4/4-5-range-based%20for%20statement.md)
 
+### Chapter-5
++ [强枚举类型](./Chapter-5/5-1-Enum%20class.md)
+
 ### Others
 + 对齐支持
 + 通用属性
