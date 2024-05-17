@@ -11,9 +11,14 @@ Understanding C++ 11, knowledge about C++ 11
 + [扩展的整型](./Chapter-2/2-3-Extended%20int.md)
 + [_cpluscplus 宏](./Chapter-2/2-4-__cpluscplus.md)
 + [静态断言](./Chapter-2/2-5-static_assert.md)
++ [noexcept 修饰符和操作符](./Chapter-2/2-6-noexcept.md)
++ [快速初始化成员变量](./Chapter-2/2-7-Initialization.md)
++ [非静态成员变量的 sizeof](./Chapter-2/2-8-sizeof.md)
 + [扩展的 friend 语法](./Chapter-2/2-9-friend-extend.md)
++ [final/override](./Chapter-2/2-10-final-override.md)
 + [函数的默认模板参数](./Chapter-2/2-11-Default%20template%20parameter.md)
 + [外部模板](./Chapter-2/2-12-External%20template.md)
++ [局部类型用作模板参数](./Chapter-2/2-13-Template%20Parameters.md)
 
 ### Chapter-3
 + [继承构造函数](./Chapter-3/3-1-Inherit%20constructor.md)
@@ -37,23 +42,22 @@ Understanding C++ 11, knowledge about C++ 11
 
 ### Chapter-5
 + [强枚举类型](./Chapter-5/5-1-Enum%20class.md)
++ [内存管理](./Chapter-5/5-2-Memory%20Management.md)
 
-### Others
+### Chapter-6
++ 常量表达式
++ 变长模板
++ 原子操作
++ 线程局部存储
++ 快速退出
+
+### Chapter-7
++ 指针空值
++ 显示默认和删除函数（默认的控制）
++ lambda 函数
+
+### Chapter-8
 + 对齐支持
 + 通用属性
-+ 原子操作
-+ 强类型枚举
-+ 复制再抛出异常
-+ 常量表达式
-+ 显示默认和删除函数（默认的控制）
-+ 并行动态初始化和析构
-+ 统一的初始化语法和语义
-+ 变长模板
-+ 类成员初始化
-+ lambda 函数
-+ 局部类型用作模板参数
-+ 内存模型
-+ 指针空值
-+ 原生字符串字面量
-+ 线程本地的存储
 + Unicode
++ 原生字符串字面量
