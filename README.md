@@ -45,7 +45,7 @@ Understanding C++ 11, knowledge about C++ 11
 + [内存管理](./Chapter-5/5-2-Memory%20Management.md)
 
 ### Chapter-6
-+ 常量表达式
++ [常量表达式](./Chapter-6/6-1-constexpr.md)
 + 变长模板
 + 原子操作
 + 线程局部存储
