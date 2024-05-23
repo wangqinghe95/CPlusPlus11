@@ -46,7 +46,7 @@ Understanding C++ 11, knowledge about C++ 11
 
 ### Chapter-6
 + [常量表达式](./Chapter-6/6-1-constexpr.md)
-+ 变长模板
++ [变长模板](./Chapter-6/6-2-variadic%20templates.md)
 + 原子操作
 + 线程局部存储
 + 快速退出
