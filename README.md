@@ -49,7 +49,7 @@ Understanding C++ 11, knowledge about C++ 11
 + [变长模板](./Chapter-6/6-2-variadic%20templates.md)
 + [原子操作](./Chapter-6/6-3-atomic.md)
 + [线程局部存储](./Chapter-6/6-4-thread-local%20storage.md)
-+ 快速退出
++ [快速退出](./Chapter-6/6-5-quick-exit.md)
 
 ### Chapter-7
 + 指针空值
