@@ -48,7 +48,7 @@ Understanding C++ 11, knowledge about C++ 11
 + [常量表达式](./Chapter-6/6-1-constexpr.md)
 + [变长模板](./Chapter-6/6-2-variadic%20templates.md)
 + [原子操作](./Chapter-6/6-3-atomic.md)
-+ 线程局部存储
++ [线程局部存储](./Chapter-6/6-4-thread-local%20storage.md)
 + 快速退出
 
 ### Chapter-7
