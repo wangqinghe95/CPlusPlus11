@@ -52,7 +52,7 @@ Understanding C++ 11, knowledge about C++ 11
 + [快速退出](./Chapter-6/6-5-quick-exit.md)
 
 ### Chapter-7
-+ 指针空值
++ [指针空值](./Chapter-7/7-1-nullptr.md)
 + 显示默认和删除函数（默认的控制）
 + lambda 函数
 
