@@ -53,7 +53,7 @@ Understanding C++ 11, knowledge about C++ 11
 
 ### Chapter-7
 + [指针空值](./Chapter-7/7-1-nullptr.md)
-+ 显示默认和删除函数（默认的控制）
++ [显示默认和删除函数（默认的控制）](./Chapter-7/7-2-defaulted%20and%20deleted%20functions.md)
 + lambda 函数
 
 ### Chapter-8
