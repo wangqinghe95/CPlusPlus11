@@ -57,7 +57,7 @@ Understanding C++ 11, knowledge about C++ 11
 + [lambda 函数](./Chapter-7/7-3-lambda.md)
 
 ### Chapter-8
-+ 对齐支持
-+ 通用属性
-+ Unicode
-+ 原生字符串字面量
++ [对齐支持](./Chapter-8/8-1-alignment%20support.md)
++ [通用属性](./Chapter-8/8-2-general%20attribute.md)
++ [Unicode](./Chapter-8/8-3-Unicode.md)
++ [原生字符串字面量](./Chapter-8/8-4-raw%20string%20literals.md)
