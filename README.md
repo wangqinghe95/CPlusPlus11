@@ -1,9 +1,12 @@
 # CPlusPlus11
 
 ## Introduction
-Understanding C++ 11, knowledge about C++ 11
 
-## New Feature Of C++
+| Book | Author | Staus | Remark |
+| -- | -- | -- | -- |
+| 《Understanding C++11 Anlaysis and Application of New Feature》 | IBM 编译器中国开发团队 | Done | None |
+
+## Content
 
 ### Chapter-2
 + [C++ 11 兼容 C99 特性](./Chapter-2/2-1-Compatible%20Feature%20with%20C99.md)
@@ -61,3 +64,55 @@ Understanding C++ 11, knowledge about C++ 11
 + [通用属性](./Chapter-8/8-2-general%20attribute.md)
 + [Unicode](./Chapter-8/8-3-Unicode.md)
 + [原生字符串字面量](./Chapter-8/8-4-raw%20string%20literals.md)
+
+
+## Summary
+
+### Chapter 2
+1. 引入了 4 个 C99 预定的宏，__func__ 预定义标识符，_Pargma 操作符，变长参数定义以及宽窄字符连接等概念。
+2. 更新了 _cplusplus 宏的值
+3. 纳入了 C99 的 longlong 类型，将扩展整型的规则定义好，这样就可以保证各个编译器扩展内置类型遵守统一的规则。
+4. 统一静态断言，做成了编译器级别的支持。
+5. 抛弃 throw() 异常描述符，新增可以推导是否可以抛出异常的 noexcept 异常描述符
+6. 对非静态成员初始化做了改进，允许 sizeof 直接作用于类成员
+7. 对 friend 声明给予一定的拓展，以方便通过模板方式指定某个类是否是其他类或者函数的友元
+8. 新增 final/override 
+9. 把默认参数模板概念延伸到模板函数中，并且允许局部函数和匿名类型做模板参数
+
+### Chapter 3
+
+1. 新增右值引用特性，借用该特性实现移动语义，并实现移动构造函数；利用右值引用完成完美转发，其包括引用折叠，模板推导等。
+2. 实现简单类型和复杂类型看，介绍 POD，划分平凡和标准布局。
+3. 引入列表初始化
+4. 新增继承构造函数和委派构造函数
+5. 介绍避免意外的显示构造转换，以及能为类产生变长成员的非受限联合体。
+6. 内联的名字空间
+7. SFINAE给规则
+
+### Chapter 4
+1. 解决双右尖括号语法问题
+2. 类型推导的改进，auto，decltype，以及追踪返回类型函数声明
+3. 基于范围的 for 循环和 auto 的搭配
+
+### Chapter 5
+1. 新增强类型枚举
+2. 智能指针的改进
+3. 垃圾回收
+
+### Chapter 6
+1. 常量表达式 constexpr
+2. 变长模板
+3. 原子类型的定义，包括影响的内存顺序
+4. 线程局部存储
+5. 快速退出 quick_exit
+
+### Chapter 7
+1. nullptr
+2. =default/=delete
+3. lambda 表达式
+
+### Chapter 8
+1. 对齐方式
+2. 通用属性
+3. Unicode
+4. 原生字符串字面量
